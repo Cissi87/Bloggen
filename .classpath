@@ -2,17 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.osgi_3.9.0.v20121210-201226.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.osgi_3.9.0.v20121210-201226.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.core.commands_3.6.1.v20120814-150512.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.core.commands_3.6.1.v20120814-150512.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.equinox.registry_3.5.300.v20120731-134527.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.equinox.registry_3.5.300.v20120731-134527.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.core.runtime_3.9.0.v20121004-163638.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.core.runtime_3.9.0.v20121004-163638.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.text_3.5.300.v20121210-150853.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.text_3.5.300.v20121210-150853.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.101.0.v4317a.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.101.0.v4317a.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.jface_3.9.0.v20130314-1654.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.jface_3.9.0.v20130314-1654.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.jface.text_3.8.100.v20121126-164058.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.jface.text_3.8.100.v20121126-164058.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.ui.workbench_3.105.0.v20121210-193513.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.ui.workbench_3.105.0.v20121210-193513.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/com.ibm.icu_50.1.0.v20121116-2.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/com.ibm.icu_50.1.0.v20121116-2.jar"/>
-	<classpathentry kind="lib" path="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.ui.forms_3.5.200.v20120705-114351.jar" sourcepath="/Users/Cissi/Downloads/eclipse/plugins/org.eclipse.ui.forms_3.5.200.v20120705-114351.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-5.1.24-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
