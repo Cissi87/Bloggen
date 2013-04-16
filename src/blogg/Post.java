@@ -7,6 +7,8 @@ public class Post {
 	public Writer writer;
 	public  Category category; 
 	
+	private int id;
+	
 	public String getTitle() {
 		return title;
 	}
@@ -43,5 +45,13 @@ public class Post {
 		return title + " by " + writer.name;
 		//Hej hopp gummi...
 		
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 }

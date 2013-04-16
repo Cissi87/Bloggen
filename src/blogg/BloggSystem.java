@@ -20,6 +20,15 @@ public class BloggSystem {
 	String user = "root";
 	String password = "root";
 
+	public Writer getWriterById(int id) {
+		for(int i = 0; i < Writers.size(); i++) {
+			if (id == Writers.get(i).getId()) {
+				return Writers.get(i);
+			}
+		} 
+		return null;
+	}
+	
 	public void fill() {
 		try {
 			con = DriverManager.getConnection(url, user, password);
@@ -41,7 +50,7 @@ public class BloggSystem {
 			while (rs.next()) {
 				Writer writer = new Writer();
 				writer.setName(rs.getString("name"));
-				writer.getId(rs.getInt("id"));
+				writer.setId(rs.getInt("id"));
 				Writers.add(writer);
 
 			}
@@ -54,6 +63,8 @@ public class BloggSystem {
 				Post blogItem = new Post();
 				blogItem.setTitle(rs.getString("title"));
 				blogItem.setContent(rs.getString("post"));
+				blogItem.setId(rs.getInt("id"));
+				blogItem.setWriter(getWriterById(rs.getInt("writer")));
 				posts.add(blogItem);
 
 			}
