@@ -29,6 +29,15 @@ public class BloggSystem {
 		return null;
 	}
 	
+	public Category getCategoryById(int id) {
+		for(int i = 0; i < Categories.size(); i++) {
+			if (id == Categories.get(i).getId()) {
+				return Categories.get(i);
+			}
+		}
+		return null;
+	}
+	
 	public void fill() {
 		try {
 			con = DriverManager.getConnection(url, user, password);
@@ -65,6 +74,7 @@ public class BloggSystem {
 				blogItem.setContent(rs.getString("post"));
 				blogItem.setId(rs.getInt("id"));
 				blogItem.setWriter(getWriterById(rs.getInt("writer")));
+				blogItem.setCategory(getCategoryById(rs.getInt("category")));
 				posts.add(blogItem);
 
 			}
