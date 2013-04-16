@@ -30,6 +30,7 @@ public class BloggSystem {
 			while (rs.next()) {
 				Category category = new Category();
 				category.setName(rs.getString("name"));
+				category.setId(rs.getInt("id"));
 				Categories.add(category);
 
 			}
@@ -40,6 +41,7 @@ public class BloggSystem {
 			while (rs.next()) {
 				Writer writer = new Writer();
 				writer.setName(rs.getString("name"));
+				writer.getId(rs.getInt("id"));
 				Writers.add(writer);
 
 			}
@@ -58,5 +60,13 @@ public class BloggSystem {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public List<Writer> getWriters() {
+		return Writers;
+	}
+
+	public void setWriters(List<Writer> writers) {
+		Writers = writers;
 	}
 }
